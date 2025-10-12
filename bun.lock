@@ -1,0 +1,31 @@
+{
+  "lockfileVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "duck-queries",
+      "dependencies": {
+        "@duckdb/node-api": "^1.4.1-r.1",
+      },
+      "peerDependencies": {
+        "typescript": "^5",
+      },
+    },
+  },
+  "packages": {
+    "@duckdb/node-api": ["@duckdb/node-api@1.4.1-r.1", "", { "dependencies": { "@duckdb/node-bindings": "1.4.1-r.1" } }, "sha512-OQgLTZHkHfhbl4lNgn/dD9WwwKujbshPTl6ZW/waqNK10kcZmrtZM70FrMiBVKi4FDbaFSN8/EQ6n8N2K1GlRw=="],
+
+    "@duckdb/node-bindings": ["@duckdb/node-bindings@1.4.1-r.1", "", { "optionalDependencies": { "@duckdb/node-bindings-darwin-arm64": "1.4.1-r.1", "@duckdb/node-bindings-darwin-x64": "1.4.1-r.1", "@duckdb/node-bindings-linux-arm64": "1.4.1-r.1", "@duckdb/node-bindings-linux-x64": "1.4.1-r.1", "@duckdb/node-bindings-win32-x64": "1.4.1-r.1" } }, "sha512-juctO06hK1DVPCt8uLwZh8IY/aqlUPEZ7MuAsecP3DVSfQH8L3T3/KRvanjg0X1PrviLptr81BYilriOarbP8g=="],
+
+    "@duckdb/node-bindings-darwin-arm64": ["@duckdb/node-bindings-darwin-arm64@1.4.1-r.1", "", { "os": "darwin", "cpu": "arm64" }, "sha512-Ji/b0zKg7R2tta3T0CQx29XtLlkrJggDK91d0qaFtPgXSrtnevEBHg7PVS5lC0i0Lwksk1BQB8P5/5aGwUGttA=="],
+
+    "@duckdb/node-bindings-darwin-x64": ["@duckdb/node-bindings-darwin-x64@1.4.1-r.1", "", { "os": "darwin", "cpu": "x64" }, "sha512-4q8jk+mII15UmonkhniEHpXYJ9Motu/J+HgftJoX6aBh8Ic8HnpqrDYdaV1LwVUBQuw9sIuKPT7uvY+sbzKr9Q=="],
+
+    "@duckdb/node-bindings-linux-arm64": ["@duckdb/node-bindings-linux-arm64@1.4.1-r.1", "", { "os": "linux", "cpu": "arm64" }, "sha512-8ugaMZsPSBhys+ZubWzfuJ3Q67anOCOIeu+w34W0HVq3jy0MWA8LOGTNWPbTvdQuVKrS7YyBLtAxjeBy2akiRg=="],
+
+    "@duckdb/node-bindings-linux-x64": ["@duckdb/node-bindings-linux-x64@1.4.1-r.1", "", { "os": "linux", "cpu": "x64" }, "sha512-FZlEpYB+KHUqBmqkXH4kA08i4UHBLBm87i3N1Vu6s10pqFPOW0dLQPruSPheiWFPfnmBF1Go7SreOvTHz17lxA=="],
+
+    "@duckdb/node-bindings-win32-x64": ["@duckdb/node-bindings-win32-x64@1.4.1-r.1", "", { "os": "win32", "cpu": "x64" }, "sha512-8yCoZBD3bJy1wUTfMSlIAfaxhqh3zrSk+XZn7KC3D3mQzx37zDV0i0HGl5W57q0tOYknBCqkamlklDAY8oK8TQ=="],
+
+    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+  }
+}
