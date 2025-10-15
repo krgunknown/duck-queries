@@ -10,6 +10,11 @@
   "private": false,
   "type": "module",
   "dependencies": {
-    "@duckdb/node-api": "^1.4.1-r.1"
-  }
+    "@duckdb/node-api": "^1.4.1-r.1",
+    "@huggingface/transformers": "^3.7.5"
+  },
+  "trustedDependencies": [
+    "onnxruntime-node",
+    "protobufjs"
+  ]
 }
