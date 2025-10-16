@@ -11,7 +11,7 @@ const connection = await instance.connect();
 
 // Create notes with it's embeddings
 const notes = [
-    { id: 1, content: "Shinkegi No Kyojin" },
+    { id: 1, content: "Shingeki No Kyojin" },
     { id: 2, content: "I Love anime" },
     { id: 3, content: "You are cute <3" },
     { id: 4, content: "DuckDB is awesome" },
